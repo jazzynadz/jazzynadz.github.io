@@ -1,18 +1,68 @@
 body{
-background-color: red;
 }
 
 h1{
-color: yellow;
+font-family: sans-serif;
+color: blue;
 margin-left: 200px;
 }
 
 h3{
-color: white;
+font-family: sans-serif;
+color: darkgray;
 margin-left: 200px
 }
 
 p{
-color: white;
-margin-left: 300px
+font-family: sans-serif;
+color: dimgray;
+margin-left: 200px
+}
+
+div{
+    font-family: sans-serif;
+}
+
+#columns{
+    background-color: lightgray;
+     margin-left: 200px
+    -webkit-column-count: 3; /* Chrome, Safari, Opera */
+    -moz-column-count: 3; /* Firefox */
+    column-count: 3;
+    -webkit-column-gap: 50px; /* Chrome, Safari, Opera */
+    -moz-column-gap: 50px; /* Firefox */
+    column-gap: 50px;
+}
+
+#diff-col{
+     margin-left: 200px
+    -webkit-column-count: 3; /* Chrome, Safari, Opera */
+    -moz-column-count: 3; /* Firefox */
+    column-count: 3;
+    -webkit-column-gap: 50px; /* Chrome, Safari, Opera */
+    -moz-column-gap: 50px; /* Firefox */
+    column-gap: 50px;
+}
+
+#diff-col .left-col{
+    width: 30%
+    padding: 5 px;
+    background-color: yellow;
+}
+
+#diff-col .mid-col{
+    width: 30%
+    padding: 5 px;
+    background-color: red;
+}
+
+#diff-col .right-col{
+    width: 30%
+    padding: 5 px;
+    background-color: limegreen;
+}
+
+#paragraf-bawah{
+    color: blue;
+    margin-left: 200px
 }
