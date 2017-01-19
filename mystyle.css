@@ -25,7 +25,6 @@ div{
 
 #columns{
     background-color: lightgray;
-     margin-left: 200px
     -webkit-column-count: 3; /* Chrome, Safari, Opera */
     -moz-column-count: 3; /* Firefox */
     column-count: 3;
@@ -35,7 +34,6 @@ div{
 }
 
 #diff-col{
-     margin-left: 200px
     -webkit-column-count: 3; /* Chrome, Safari, Opera */
     -moz-column-count: 3; /* Firefox */
     column-count: 3;
