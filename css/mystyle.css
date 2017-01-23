@@ -4,7 +4,7 @@ body{
 h1{
 font-family: sans-serif;
 color: blue;
-margin-left: 200px;
+justify-content: center;
 }
 
 h3{
@@ -23,6 +23,9 @@ div{
     font-family: sans-serif;
 }
 
+.home{
+    image-resolution: 200px
+}
 #columns{
     background-color: lightgray;
     -webkit-column-count: 3; /* Chrome, Safari, Opera */
