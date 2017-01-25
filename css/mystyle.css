@@ -1,31 +1,35 @@
 body{
+    background-color: black
 }
 
 h1{
-font-family: sans-serif;
-color: blue;
-justify-content: center;
+font-family: 'Peignot', sans-serif;
+color: white;
+font-size: 52px;
+font-kerning: 100;
+}
+
+h2{
+font-family: 'Futura', sans-serif;
+color: white;
+font-size: 20px;
 }
 
 h3{
-font-family: sans-serif;
+font-family: 'Lato', sans-serif;
 color: darkgray;
 margin-left: 200px
 }
 
 p{
-font-family: sans-serif;
-color: dimgray;
-margin-left: 200px
+font-family: 'Lato', sans-serif;
+color: white;
 }
 
 div{
-    font-family: sans-serif;
+    font-family: 'Lato', sans-serif;
 }
 
-.home{
-    image-resolution: 200px
-}
 #columns{
     background-color: lightgray;
     -webkit-column-count: 3; /* Chrome, Safari, Opera */
@@ -36,31 +40,35 @@ div{
     column-gap: 50px;
 }
 
-#diff-col{
+.gallery{
     -webkit-column-count: 3; /* Chrome, Safari, Opera */
     -moz-column-count: 3; /* Firefox */
     column-count: 3;
     -webkit-column-gap: 50px; /* Chrome, Safari, Opera */
     -moz-column-gap: 50px; /* Firefox */
+    margin-top: 20px;
     column-gap: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
-#diff-col .left-col{
+.gallery .left-col{
     width: 30%
-    padding: 5 px;
-    background-color: yellow;
+    padding: 1 px;
+    border: 1px solid white;
 }
 
-#diff-col .mid-col{
+.gallery .mid-col{
     width: 30%
-    padding: 5 px;
-    background-color: red;
+    padding: 1 px;
+    border: 1px solid white;
 }
 
-#diff-col .right-col{
+.gallery .right-col{
     width: 30%
-    padding: 5 px;
-    background-color: limegreen;
+    padding: 1 px;
+    border: 1px solid white;
 }
 
 #paragraf-bawah{
