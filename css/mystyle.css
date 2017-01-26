@@ -40,6 +40,12 @@ div{
     column-gap: 50px;
 }
 
+figure {
+  width: -webkit-min-content;
+  width: -moz-min-content;
+  width: min-content;
+}
+
 .gallery{
     -webkit-column-count: 3; /* Chrome, Safari, Opera */
     -moz-column-count: 3; /* Firefox */
@@ -48,9 +54,10 @@ div{
     -moz-column-gap: 50px; /* Firefox */
     margin-top: 20px;
     column-gap: 50px;
-    display: flex;
+    display: table;
     flex-wrap: wrap;
     justify-content: center;
+    color: white
 }
 
 .gallery .left-col{
