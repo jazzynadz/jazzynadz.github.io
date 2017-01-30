@@ -7,8 +7,7 @@ function formValidation()
     var ucountry = document.registration.country;
     var uzip = document.registration.zip;
     var uemail = document.registration.email;
-    var umsex = document.registration.msex;
-    var ufsex = document.registration.fsex; if (userid_validation(uid,5,12)) 
+    var umsex = document.registration.sex; 
 {
 if (passid_validation(passid,7,12))
 {
@@ -26,3 +25,37 @@ if(validsex(umsex,ufsex))
 }
 }
 return false;
+
+
+    
+    
+    
+function allLetter(uname)
+{
+va letters = /^[A-Za-z]+$/;
+if (uname.value.match(letters))
+{
+return true;
+}
+else
+{
+alert ('Username must have alphabet characters only');
+    uname.focus();
+    return false;
+}
+}
+    
+    
+    
+    
+    
+ function alphanumeric(uadd)   
+{
+var letters = /^[0-9a-zA-Z]+$/;
+{
+return true;
+}
+}
+    
+    
+    
