@@ -8,6 +8,7 @@ function formValidation()
     var uzip = document.registration.zip;
     var uemail = document.registration.email;
     var umsex = document.registration.sex; 
+    var uinstrumetn = document.registration.instrument;
 {
 if (passid_validation(passid,7,12))
 {

@@ -5,7 +5,7 @@
     
     function tosubmit(){
         var mytext = document.getElementById("mytext").value;
-        localstorage.setItem("mytext", "12345");
+        localStorage.setItem("mytext", mytext);
         console.log(mytext);
         return true;
     }
@@ -18,6 +18,5 @@
             <input id ="mytext" type="text" name="data">
             <input type="submit" value="Submit">
             </form>
-        </center>
     </body>
 </html>
