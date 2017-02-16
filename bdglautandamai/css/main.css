@@ -530,8 +530,17 @@ h2 {
   background-size: cover;
   background-repeat:no-repeat;
   position: relative;
-  padding: 95px 0 90px;
+  padding: 60px 0 60px;
   overflow: hidden;
+}
+
+#twitter h2 {
+  font-family: 'Scope One', sans-serif;
+  font-size: 50px;
+  color: #FFFFFF;
+  text-transform: lowercase;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .twit {
@@ -546,35 +555,39 @@ h2 {
 
 #twitter-feed .item img {
   display: inline-block;
-  width: 78px;
-  height: 78px;
+  width: 200px;
+  height: 200px;
   border-radius: 50%;
-  background-color: #c5c8ce;
+  background-color: #CE1974;
   padding: 5px;
   margin-bottom: 30px;
 }
 
-#twitter-feed .item a, 
+#twitter h3 {
+  font-family: 'Scope One', sans-serif;
+  font-size: 30px;
+  color: #FFFFFF;
+  text-transform: lowercase;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
 #twitter-feed .item p { 
-  font-size: 24px;
+  font-size: 18px;
   font-weight: 300;
-  font-family: 'Yanone Kaffeesatz','sans-serif';
+  font-family: 'Open Sans', sans-serif;
 }
 
 #twitter-feed .item p {
-  color: #3D3D3D;
-}
-
-#twitter-feed .item a {
-  color:#00c3ff;
+  color: #FFFFFF;
 }
 
 .twitter-control-left, 
 .twitter-control-right {
   position: absolute;
-  color: #00c3ff;
+  color: #FFFFFF;
   top: 59%;
-  font-size: 24px
+  font-size: 60px
 }
 
 .twitter-control-left {
@@ -623,7 +636,6 @@ h2 {
   font-size: 0;
   padding: 0;
 }
-
 
 #sponsor .item ul li {
   display: inline-block;
