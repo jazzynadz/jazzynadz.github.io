@@ -215,12 +215,12 @@ h2 {
 #main-slider 
 .carousel-caption a {
   font-size: 22px;
-  color: #2da1c5
+  color: #178DCD
 }
 
 #main-slider 
 .carousel-caption a:hover {
-  color: #2588a6
+  color: #178DCD
 }
 
 #main-slider 
@@ -240,8 +240,8 @@ h2 {
 
 #main-slider 
 .carousel-indicators li {
-  background-color:#1B7B98;
-  border: 1px solid #1B7B98;
+  background-color:#178DCD;
+  border: 1px solid #178DCD;
 }
 
 #main-slider 
@@ -479,17 +479,21 @@ h2 {
 
 #about h2 {
   margin-bottom: 23px;
+  font-family: 'Scope One', sans-serif;
+  font-size: 60px;
+  text-transform: lowercase;
 }
 
 .about-content p {
   font-size: 17px;
-  font-family: 'Dosis',sans-serif;
+  font-family: 'Open Sans',sans-serif;
 }
 
 #about .btn-primary {
-  background-color: #137c61;
+  background-color: #1B4F1D;
   color: #fff;
-  text-transform: capitalize;
+  font-family: 'Scope One', sans-serif;
+  text-transform: uppercase;
   border: none;
   margin-top: 28px;
 }
@@ -592,6 +596,10 @@ h2 {
 }
 
 #sponsor h2 {
+  font-family: 'Scope One', sans-serif;
+  font-size: 20px;
+  color: #4D4D4D;
+  text-transform: lowercase;
   margin-top: 90px;
   margin-bottom: 40px;
 }
@@ -605,7 +613,7 @@ h2 {
 #sponsor .item ul li {
   display: inline-block;
   list-style: none;
-  width: 33.33%;
+  width: 25%;
   margin-bottom: 75px;
 }
 
@@ -615,18 +623,18 @@ h2 {
 
 .sponsor-control-left, 
 .sponsor-control-right {
-  color: #FFFFFF;
-  font-size: 24px;
+  color: #808285;
+  font-size: 60px;
   position: absolute;
   top: 20%;
 }
 
 .sponsor-control-left {
-  right: 12%
+  right: 10%
 }
 
 .sponsor-control-right {
-  right: 10%
+  right: 0%
 }
 
 
