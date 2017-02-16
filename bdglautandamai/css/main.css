@@ -276,6 +276,7 @@ h2 {
   font-size: 20px;
   color: #6A3E18;
   text-align: center;
+  position: fixed;
 }
 
 #countdown {
@@ -403,11 +404,12 @@ h2 {
 
 #event h2 {
   color: #FFFFFF;
-  font-size: 36px;
+  font-size: 60px;
+  font-family: 'Scope One', sans-serif;
   font-weight: 300;
   margin-bottom: 40px;
   margin-top: 70px;
-  text-transform: uppercase;
+  text-transform: lowercase;
 }
 
 .single-event {
