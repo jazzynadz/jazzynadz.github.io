@@ -6,8 +6,8 @@
 
 		//array of custom settings
 		var settings = { 
-			'date': null,
-			'format': null
+			'date': "31 december 2017 23:59:59",
+			'format': "on"
 		};
 
 		//append the settings array to options
@@ -58,7 +58,7 @@
 				thisEl.find(".minutes").text(minutes);
 				thisEl.find(".seconds").text(seconds);
 			} else { 
-				alert("Invalid date. Here's an example: 12 Tuesday 2012 17:30:00");
+				alert("Invalid date. Here's an example: 16 November 2017 :30:00");
 				clearInterval(interval); 
 			}
 		}
