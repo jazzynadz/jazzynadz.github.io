@@ -276,7 +276,7 @@ h2 {
   font-size: 20px;
   color: #6A3E18;
   text-align: center;
-  position: fixed;
+  position: relative;
 }
 
 #countdown {
@@ -439,13 +439,13 @@ h2 {
 .even-control-left, 
 .even-control-right {
   position: absolute;
-  font-size: 24px;
+  font-size: 48px;
   color: #fff;
   top: 0;
 }
 
 .even-control-left {
-  right: 3%
+  right: 10%
 } 
 
 .even-control-right {
