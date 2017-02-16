@@ -414,6 +414,7 @@ h2 {
 
 .single-event {
   margin-bottom: 70px;
+  margin-left: inherit;
 }
 
 .single-event h4 {
@@ -429,7 +430,7 @@ h2 {
 
 .single-event h5 {
   font-family: 'Open Sans', sans-serif;
-    font-style: normal;
+  font-variant: light;
   font-size: 14px;
   text-transform:inherit;
 }
