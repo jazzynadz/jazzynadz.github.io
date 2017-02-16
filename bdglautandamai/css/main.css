@@ -751,10 +751,12 @@ h2 {
 }
 
 #contact-section .btn-primary {
-  background-color: #373737;
+  background-color: #05547E;
   color: #f7ab24;
   border: none;
+  font-family: 'Scope One', sans-serif;
   font-size: 24px;
+  text-transform: uppercase;
   padding: 6px 42px;
   margin-bottom: 110px;
   margin-top: 10px
@@ -772,12 +774,12 @@ h2 {
 **************************/
 
 #footer {
-  background-color: #212121;
-  background-image: url("../images/footer-bg.jpg");
+  background-color: #05547E;
   background-position: center bottom;
   background-repeat: no-repeat;
   background-size: cover;
   color: #FFFFFF;
+  font-family: 'Scope One', sans-serif;
   font-size: 20px;
   padding: 35px 0;
 }
