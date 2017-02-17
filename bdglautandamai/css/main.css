@@ -203,24 +203,27 @@ h2 {
 
 #main-slider 
 .carousel-caption h2 {  
-  font-size: 38px;
- 
+    font-family: 'Scope One', sans-serif;
+    font-size: 38px;
 }
 
 #main-slider 
 .carousel-caption h4 {
-  font-size: 24px;
+    font-family: 'Scope One', sans-serif;
+    font-size: 30px;
+    color: #178DCD;
 }
 
 #main-slider 
 .carousel-caption a {
-  font-size: 22px;
-  color: #178DCD
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    color: yellow
 }
 
 #main-slider 
 .carousel-caption a:hover {
-  color: #178DCD
+  color: #E43380;
 }
 
 #main-slider 
