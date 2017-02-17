@@ -709,19 +709,33 @@ h2 {
   padding-top:47px;
 }
 
+#contact h2 {
+    font-family: 'Scope One', sans-serif;
+    text-transform: lowercase;
+    font-size: 60px;
+}
+
 #contact h3 {
   font-family: 'Scope One', sans-serif;
-  text-transform:inherit;
+  font-size: 36px;
+  text-transform:lowercase;
   color: #FFFFFF; 
 }
 
-#contact.social-icons a {
+#contact p {
+  font-family: 'Open Sans', sans-serif;
   font-size: 18px;
-  color: #fff;
-  padding-left:20px;  
+  text-transform:lowercase;
+  color: #FFFFFF; 
 }
 
-.contact social-icons .fa-facebook:hover {
+.contact-section a {
+  font-family: 'Scope One', sans-serif;
+  font-size: 36px;
+  color: #fff;  
+}
+
+.contact-section a:hover {
   color: #F9DF0A;
 }
 
@@ -729,28 +743,29 @@ h2 {
   margin-bottom: 25px
 }
 
-#contact address {
-  font-size: 18px;  
-  color: #373737; 
+.contact twitter {
+  margin-bottom: 35px;
+  display: block;
 }
 
-.contact-text {
+.contact-facebook {
   margin-bottom: 35px;
   display: block;
 }
 
 
 #contact-section .form-control {
-  border-color: #ae750d;
+  border-color: #05547E;
   box-shadow:none;
   outline: 0 none;
   border-radius: 0;
   color: #797979;
   font-size: 18px;
+  font-family: 'Open Sans', sans-serif;
 }
 
 #contact-section .form-control:focus {
-  border-color: #ae750d;
+  border-color: #05547E;
 }
 
 #contact-section input {  
@@ -758,7 +773,7 @@ h2 {
 }
 
 #contact-section textarea {
-  height: 90px;
+  height: 120px;
   resize:none;
 }
 
@@ -788,12 +803,11 @@ h2 {
 #footer {
   background-color: #05547E;
   background-position: center bottom;
-  background-repeat: no-repeat;
   background-size: cover;
   color: #FFFFFF;
   font-family: 'Scope One', sans-serif;
-  font-size: 20px;
-  padding: 35px 0;
+  font-size: 14px;
+  padding: 20px 0;
 }
 
 #footer a {
