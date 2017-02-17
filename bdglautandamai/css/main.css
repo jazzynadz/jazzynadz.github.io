@@ -582,6 +582,14 @@ h2 {
   color: #FFFFFF;
 }
 
+#twitter-feed .item a {
+    color: #FFFFFF;
+}
+
+#twitter-feed .item a:hover {
+    color: yellow;
+}
+
 .twitter-control-left, 
 .twitter-control-right {
   position: absolute;
