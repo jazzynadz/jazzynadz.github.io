@@ -35,6 +35,7 @@ p {
 }
 
 #logo-gki {
+    max-width: 100px;
     height: auto;
 }
 
@@ -57,6 +58,7 @@ p {
     padding-bottom: 100px;
 }
 #gambar-judul {
+    max-width: 400px;
     height: auto;
 }
 .judul {
@@ -71,24 +73,30 @@ p {
     padding-bottom: 100px;
 }
 #gambar-02 {
+    max-width: 300px;
     height: auto;
 }
 #usia-responden {
     padding: 2rem;
 }
 #gambar-03 {
+    max-width: 300px;
     height: auto;
 }
 #gambar-04 {
+    max-width: 300px;
     height: auto;
 }
 #gambar-05 {
+    max-width: 350px;
     height: auto;
 }
 #gambar-06 {
+    max-width: 300px;
     height: auto;
 }
 #gambar-07 {
+    max-width: 350px;
     height: auto;
 }
 
@@ -103,15 +111,19 @@ p {
     padding: 2rem;
 }
 #gambar-08 {
+    max-width: 300px;
     height: auto;
 }
 #gambar-09 {
+    max-width: 350px;
     height: auto;
 }
 #gambar-10 {
+    max-width: 300px;
     height: auto;
 }
 #gambar-11 {
+    max-width: 350px;
     height: auto;
 }
 
@@ -123,9 +135,11 @@ p {
     padding-bottom: 100px;
 }
 #gambar-12 {
+    max-width: 350px;
     height: auto;
 }
 .button-faktor {
+    max-width: 300px;
     height: auto;
 }
 
@@ -137,9 +151,11 @@ p {
     padding-bottom: 100px;
 }
 #gambar-13 {
+    max-width: 350px;
     height: auto;
 }
 #gambar-14 {
+    max-width: 200px;
     height: auto;
 }
 #fgd-01 {
@@ -148,9 +164,11 @@ p {
     border-radius: 25px;
 }
 #gambar-15 {
+    max-width: 350px;
     height: auto;
 }
 #gambar-16 {
+    max-width: 200px;
     height: auto;
 }
 .button-question {
@@ -167,6 +185,7 @@ p {
     text-align: left;
 }
 #question-01 {
+    max-width: 60px;
     height: auto;
     float: left;
     margin: 20px;
@@ -210,6 +229,7 @@ p {
     color: #a34686;
 }
   .popup .content {
+    max-height: 25%;
     overflow: auto;
 }
 @media screen and (max-width: 700px){
@@ -221,15 +241,19 @@ p {
     }
 }
 #gambar-17 {
+    max-width: 350px;
     height: auto;
 }
 #gambar-18 {
+    max-width: 200px;
     height: auto;
 }
 #gambar-19 {
+    max-width: 300px;
     height: auto;
 }
 #gambar-20 {
+    max-width: 300px;
     height: auto;
 }
 
@@ -241,15 +265,19 @@ p {
     padding-bottom: 100px;
 }
 #gambar-21 {
+    max-width: 250px;
     height: auto;
 }
 #gambar-22 {
+    max-width: 350px;
     height: auto;
 }
 #gambar-23 {
+    max-width: 350px;
     height: auto;
 }
 #gambar-24 {
+    max-width: 300px;
     height: auto;
 }
 
@@ -261,15 +289,19 @@ p {
     padding-bottom: 100px;
 }
 #gambar-25 {
+    max-width: 350px;
     height: auto;
 }
 #gambar-26 {
+    max-width: 300px;
     height: auto;
 }
 #gambar-27 {
+    max-width: 350px;
     height: auto;
 }
 #gambar-28 {
+    max-width: 300px;
     height: auto;
 }
 
@@ -281,9 +313,11 @@ p {
     padding-bottom: 100px;
 }
 #gambar-29 {
+    max-width: 200px;
     height: auto;
 }
 #gambar-30 {
+    max-width: 250px;
     height: auto;
 }
 #fgd-04 {
@@ -292,9 +326,11 @@ p {
     border-radius: 25px;
 }
 #gambar-31 {
+    max-width: 350px;
     height: auto;
 }
 #gambar-32 {
+    max-width: 350px;
     height: auto;
 }
 
@@ -307,9 +343,11 @@ p {
     padding-bottom: 100px;
 }
 #gambar-33 {
+    max-width: 350px;
     height: auto;
 }
 #gambar-34 {
+    max-width: 200px;
     height: auto;
 }
 #fgd-05 {
@@ -319,9 +357,11 @@ p {
     border-radius: 25px;
 }
 #gambar-35 {
+    max-width: 350px;
     height: auto;
 }
 #gambar-36 {
+    max-width: 300px;
     height: auto;
 }
 
@@ -333,6 +373,7 @@ p {
     padding-bottom: 100px;
 }
 #gambar-37 {
+    max-width: 200px;
     height: auto;
 }
 #container-kesimpulan {
