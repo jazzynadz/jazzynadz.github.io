@@ -3435,6 +3435,10 @@ textarea.form-control-lg {
   border-radius: 0;
 }
 
+.btn-resume {
+  max-width: 20rem;
+}
+
 .fade {
   transition: opacity 0.15s linear;
 }
